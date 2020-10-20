@@ -1,0 +1,255 @@
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.left{
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100vh;
+    background-color: #EF233C
+}
+
+.left img,h3,ul,.social-media{
+    
+    position: fixed;
+    
+}
+
+.left img
+{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    left: 8%;
+    top: 10%;
+    
+}
+
+.left h3{
+    
+    left: 8%;
+    letter-spacing: 5px;
+    top: 40%;
+    font-size: 40px;
+    width: 250px;
+    color: #2B2D42;
+     font-family: 'Patrick Hand', cursive;
+    
+}
+.left ul 
+{
+    left: 11%;
+    top: 50%;
+    
+}
+
+.left ul li{
+    
+    list-style-type: none;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+    
+    
+}
+.left ul li a{
+    
+    text-decoration: none;
+    color: #8D99AE
+    
+}
+.left ul li a:hover{
+    
+    color: #ddd;
+    transition: 1s;
+}
+    
+.left .social-media{
+    
+    top:85%;
+    left: 9%;
+    width: 250px
+    
+}
+    
+.left .social-media .fab
+{
+    margin-right: 25px;
+    font-size: 40px;
+    color: #2B2D42
+    
+}
+.left .social-media .fab:hover
+{
+    
+    color: #ffffff;
+    transition: 1s;
+    transform: scale(1.5)
+    
+}
+.home{
+    
+    
+    position: relative;
+    left: 30%;
+    top: 0;
+    width: 70%;
+    height: 100vh;
+    background-color: #EDF2F4;
+    font-family: 'Patrick Hand', cursive;
+}
+.home h3{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: #EF233C;
+    font-size: 40px;
+    letter-spacing: 12px;
+    width: 400px;
+    
+    
+}
+.home p{
+    
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: #8D99AE;
+    font-size: 20px;
+    letter-spacing: 30px;
+    
+    
+}
+    
+.home img
+{
+    
+    border-radius: 10%;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 300px;
+    height: 300px
+}
+    
+.skills{
+    
+    position: relative;
+    left: 30%;
+    top: 0;
+    width: 70%;
+    height: 70vh;
+    padding-top: 250px;
+    background-color: #8D99AE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #2B2D42
+}
+.skills .photoshop ,.illustrator, .indesign
+{
+    
+    
+    padding: 100px;
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    line-height: 50px;
+    background-color: #EDF2F4;
+     font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+}
+.skills .photoshop:hover ,.illustrator:hover, .indesign:hover
+{
+    background-color: #2B2D42;
+    color: #EF233C;
+    transition: 1s;
+    box-shadow: 2px 2px 15px 5px #fff;
+    
+    
+}
+.education{
+    
+    position: relative;
+    left: 30%;
+    top: 0;
+    width: 70%;
+    height: 100vh;
+    background-color: #EDF2F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #ddd
+    
+    
+}
+
+.education div {
+     
+     font-size: 20px;
+    text-align: center;
+    background-color: #8D99AE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+     font-family: 'Patrick Hand', cursive;
+     
+     
+}
+ 
+.education div .div1{
+     
+    font-size: 40px;
+    color: #EF233C
+    
+}
+    
+ .education div .div2{
+     
+    font-size: 25px;
+    color: #EDF2F4;
+     width: 300px
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
